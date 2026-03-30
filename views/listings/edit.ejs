@@ -22,17 +22,16 @@
             <input name="listing[image]" type="file" class="form-control">
         </div>
         <div class="row">
-        <div class="mb-3 col-md-4">
-            <label for="price" class="form-lable">Price</label>
-            <input name="listing[price]" value="<%=listing.price%>" type="number" class="form-control" required>
-            <div class="invalid-feedback">Price should be valid</div>
-        </div>
-
-         <div class="mb-3 col-md-8">
-            <label for="country" class="form-lable">Country</label>
-            <input name="listing[country]" value="<%=listing.country%>" type="text" class="form-control" required>
-            <div class="invalid-feedback">Country name should be valid</div>
-        </div>
+            <div class="mb-3 col-md-4">
+                <label for="price" class="form-lable">Price</label>
+                <input name="listing[price]" value="<%=listing.price%>" type="number" class="form-control" required>
+                <div class="invalid-feedback">Price should be valid</div>
+            </div>    
+            <div class="mb-3 col-md-8">
+                <label for="country" class="form-lable">Country</label>
+                <input name="listing[country]" value="<%=listing.country%>" type="text" class="form-control" required>
+                <div class="invalid-feedback">Country name should be valid</div>
+            </div>
         </div>
 
         <div class="mb-3">
